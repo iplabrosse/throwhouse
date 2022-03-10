@@ -1,0 +1,34 @@
+
+.navbar{
+    background-color: Gray;
+	display:inline-block;
+   
+}
+
+.navbar li{
+
+list-style: none;
+display:inline-block;
+
+margin:auto;
+}
+
+.navbar li a{
+text-decoration: none;
+color:black;
+font-size: 18px;
+padding:8px 20px;
+}
+
+.navbar li a:hover{
+color:lightgrey;
+border: lightgrey;
+border-radius: 2px;
+font-size: 20px;
+}
+
+.navbar li a:active{
+	background-color: Gray;
+    
+border-radius: 5px;
+}
